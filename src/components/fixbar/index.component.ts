@@ -51,30 +51,12 @@ export class FixbarComponent {
   checking = false
   open = localStorage.getItem(STORAGE_KEY_MAP.FIXBAR_OPEN) === 'true'
   themeList = [
-    {
-      name: $t('_switchTo') + ' Super',
-      url: '/super',
-    },
-    {
-      name: $t('_switchTo') + ' Light',
-      url: '/light',
-    },
-    {
-      name: $t('_switchTo') + ' Sim',
-      url: '/sim',
-    },
+
     {
       name: $t('_switchTo') + ' Side',
       url: '/side',
     },
-    {
-      name: $t('_switchTo') + ' Shortcut',
-      url: '/shortcut',
-    },
-    {
-      name: $t('_switchTo') + ' App',
-      url: '/app',
-    },
+
   ]
 
   constructor(
