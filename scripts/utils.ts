@@ -38,8 +38,7 @@ export const TAG_ID1 = -1
 export const TAG_ID2 = -2
 export const TAG_ID3 = -3
 export const TAG_ID_NAME1 = '中文'
-export const TAG_ID_NAME2 = '英文'
-export const TAG_ID_NAME3 = 'GitHub'
+
 
 export const PATHS = {
   root: path.resolve('dist', 'browser'),
