@@ -466,7 +466,7 @@ const main = async () => {
     settings.shortcutTitle ??= ''
     settings.shortcutDocTitle ||= ''
     settings.shortcutDockCount ??= 6
-    settings.shortcutThemeShowWeather ??= true
+    settings.shortcutThemeShowWeather ??= false
     settings.shortcutThemeImages ??= [
       {
         src: backgroundImg,
