@@ -342,7 +342,7 @@ const main = async () => {
         name: isEn ? 'English' : TAG_ID_NAME2,
         color: '#f50',
         desc,
-        isInner: true,
+        isInner: false,
       })
     }
     const c = tags.some((item) => item.id === TAG_ID3)
@@ -376,9 +376,9 @@ const main = async () => {
     settings.runtime ??= dayjs.tz().valueOf()
     settings.userActions ||= []
     settings.email ||= configJson.email || ''
-    settings.showGithub ??= true
-    settings.showLanguage ??= true
-    settings.showRate ??= true
+    settings.showGithub ??= false
+    settings.showLanguage ??= false
+    settings.showRate ??= false
     settings.openSearch ??= true
     settings.title ??= 'ws01导航 - 精选实用导航网站'
     settings.description ??= 'ws01导航是一个轻量级免费且强大的导航网站'
