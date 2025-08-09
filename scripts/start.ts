@@ -395,7 +395,7 @@ const main = async () => {
   <div>Copyright © 2018-$\{year} $\{hostname}, All Rights Reserved</div>  
 </div>
 `.trim()
-    settings.showThemeToggle ??= true
+    settings.showThemeToggle ??= false
     settings.logo ||= ''
     settings.darkLogo ||= ''
 
