@@ -10,38 +10,11 @@ import { getDefaultTheme } from 'src/utils'
 
 export const routes: Routes = [
   {
-    path: 'sim',
-    component: SimComponent,
-    data: {},
-  },
-  {
-    path: 'super',
-    component: SuperComponent,
-    data: {},
-  },
-  {
     path: 'side',
     component: SideComponent,
     data: {},
   },
-  {
-    path: 'shortcut',
-    component: ShortcutComponent,
-    data: {},
-  },
 
-  {
-    path: 'light',
-    component: LightComponent,
-    data: {
-      data: {},
-    },
-  },
-  {
-    path: 'app',
-    component: MobileComponent,
-    data: {},
-  },
   {
     path: 'system',
     loadComponent: () => import('src/view/system/index.component'),
