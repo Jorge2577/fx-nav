@@ -383,7 +383,7 @@ const main = async () => {
     settings.title ??= 'ws01导航 - 精选实用导航网站'
     settings.description ??= 'ws01导航是一个轻量级免费且强大的导航网站'
     settings.keywords ??= '免费导航,开源导航'
-    settings.theme ??= 'Sim'
+    settings.theme ??= 'side'
     settings.actionUrl ??= ''
     settings.appTheme ??= 'Current'
     settings.openSEO ??= !configJson.address
@@ -451,7 +451,7 @@ const main = async () => {
     settings.sideCardStyle ||= 'example'
     settings.sideFooterHTML ||= ''
     settings.sideThemeHeight ??= 0
-    settings.sideThemeAutoplay ??= true
+    settings.sideThemeAutoplay ??= false
     settings.sideCollapsed ??= false
     settings.sideThemeImages ||= [
       {
