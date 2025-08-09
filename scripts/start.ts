@@ -98,6 +98,13 @@ const main = async () => {
           isInner: true,
         },
         {
+          name: '百度',
+          url: 'https://www.baidu.com/s?wd=',
+          icon: 'https://www.baidu.com/favicon.ico',
+          blocked: false,
+          isInner: false,
+        },
+        {
           name: 'Google',
           url: 'https://www.google.com/search?q=',
           icon: 'https://www.google.com/favicon.ico',
@@ -242,7 +249,7 @@ const main = async () => {
     const html = {
       type: ComponentType.HTML,
       id: -ComponentType.HTML,
-      html: '你好，发现导航',
+      html: '你好，ws01导航',
       width: 160,
       bgColor: '#fff',
     }
@@ -356,14 +363,14 @@ const main = async () => {
 
   {
     const banner1 =
-      'https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/banner1.jpg'
+      'https://img.keplu.eu.org/file/img1/1754755153119_77.png'
     const banner2 =
-      'https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/banner2.jpg'
+      'https://img.keplu.eu.org/file/img1/1754755153119_77.png'
     const backgroundImg =
       'https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/background.jpg'
 
     settings.favicon ??=
-      'https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/nav/logo.svg'
+      'https://img.keplu.eu.org/file/img1/1749897585818_logo04.png'
     settings.language ||= 'zh-CN'
     settings.loading ??= 'random'
     settings.runtime ??= dayjs.tz().valueOf()
@@ -373,10 +380,10 @@ const main = async () => {
     settings.showLanguage ??= true
     settings.showRate ??= true
     settings.openSearch ??= true
-    settings.title ??= '发现导航 - 精选实用导航网站'
-    settings.description ??= '发现导航是一个轻量级免费且强大的导航网站'
+    settings.title ??= 'ws01导航 - 精选实用导航网站'
+    settings.description ??= 'ws01导航是一个轻量级免费且强大的导航网站'
     settings.keywords ??= '免费导航,开源导航'
-    settings.theme ??= 'Light'
+    settings.theme ??= 'Sim'
     settings.actionUrl ??= ''
     settings.appTheme ??= 'Current'
     settings.openSEO ??= !configJson.address
@@ -423,11 +430,11 @@ const main = async () => {
     settings.superTitle ||= ''
     const defImgs = [
       {
-        src: 'https://gcore.jsdelivr.net/gh/xjh22222228/nav-image@image/nav-1717494364392-ad.jpg',
-        url: 'https://haokawx.lot-ml.com/Product/index/454266',
+        src: 'https://gcore.jsdelivr.net/gh/xjh22222228/nav-image@image/nav-1717494364392-ad0000.jpg',
+        url: 'https://www.199881.xyz/',
       },
       {
-        src: 'https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/10.png',
+        src: 'https://gcore.jsdelivr.net/gh/xjh22222228/public@gh-pages/img/10-0000.png',
         url: '',
       },
     ]
@@ -482,7 +489,7 @@ const main = async () => {
     settings.components ||= []
 
     settings.pwaEnable ??= false
-    settings.pwaName ??= '发现导航'
+    settings.pwaName ??= 'ws01导航'
     settings.pwaIcon ||= ''
 
     // 替换CDN
